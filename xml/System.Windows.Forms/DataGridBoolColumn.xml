@@ -368,11 +368,11 @@
       </Parameters>
       <Docs>
         <param name="source">The <see cref="T:System.Data.DataView" /> of the edited cell.</param>
-        <param name="displayText">The text to display in the cell.</param>
         <param name="rowNum">The row number of the edited cell.</param>
         <param name="bounds">The <see cref="T:System.Drawing.Rectangle" /> in which the control is to be sited.</param>
         <param name="readOnly">
           <see langword="true" /> if the value is read only; otherwise, <see langword="false" />.</param>
+        <param name="displayText">The text to display in the cell.</param>
         <param name="instantText">The text to display in the cell.</param>
         <param name="cellIsVisible">
           <see langword="true" /> to show the cell; otherwise, <see langword="false" />.</param>

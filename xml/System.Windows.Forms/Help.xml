@@ -247,9 +247,9 @@ Compiled Help files provide table of contents, index, search, and keyword links 
       </Parameters>
       <Docs>
         <param name="parent">A <see cref="T:System.Windows.Forms.Control" /> that identifies the parent of the Help dialog box.</param>
-        <param name="parameter">A string that contains the topic identifier.</param>
         <param name="url">The path and name of the Help file.</param>
         <param name="command">One of the <see cref="T:System.Windows.Forms.HelpNavigator" /> values.</param>
+        <param name="parameter">A string that contains the topic identifier.</param>
         <param name="param">A string that contains the topic identifier.</param>
         <summary>Displays the contents of the Help file located at the URL supplied by the user.</summary>
         <remarks>

@@ -1162,8 +1162,8 @@ MsgBox(CStr(customers(1)))
         <Parameter Name="Index" Type="System.Int32" Index="0" FrameworkAlternate="netframework-1.1" />
       </Parameters>
       <Docs>
-        <param name="Index">The zero-based index of the element to get or set.</param>
         <param name="index">To be added.</param>
+        <param name="Index">The zero-based index of the element to get or set.</param>
         <summary>Gets or sets the element at the specified index.</summary>
         <value>The element at the specified index.</value>
         <remarks>To be added.</remarks>

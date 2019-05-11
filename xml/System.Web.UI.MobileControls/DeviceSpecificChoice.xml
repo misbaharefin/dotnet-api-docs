@@ -380,8 +380,8 @@ public bool myChoiceMethod(System.Web.Mobile.MobileCapabilities
         <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
       </Parameters>
       <Docs>
-        <param name="name">The name of the attribute to be set.</param>
         <param name="key">The name of the attribute to be set.</param>
+        <param name="name">The name of the attribute to be set.</param>
         <summary>For a description of this member, see <see cref="M:System.Web.UI.IAttributeAccessor.GetAttribute(System.String)" />. This API is obsolete. For information about how to develop ASP.NET mobile applications, see <see href="https://docs.microsoft.com/aspnet/mobile/overview">Mobile Apps &amp; Sites with ASP.NET</see>.</summary>
         <returns>A <see cref="T:System.String" /> that contains the value of the specified attribute.</returns>
         <remarks>
@@ -427,8 +427,8 @@ The value of the attribute.
         <Parameter Name="value" Type="System.String" Index="1" />
       </Parameters>
       <Docs>
-        <param name="name">The name of the attribute to be set.</param>
         <param name="key">The name of the attribute to be set.</param>
+        <param name="name">The name of the attribute to be set.</param>
         <param name="value">The value assigned to the attribute.</param>
         <summary>For a description of this member, see <see cref="M:System.Web.UI.IAttributeAccessor.SetAttribute(System.String,System.String)" />. This API is obsolete. For information about how to develop ASP.NET mobile applications, see <see href="https://docs.microsoft.com/aspnet/mobile/overview">Mobile Apps &amp; Sites with ASP.NET</see>.</summary>
         <remarks>

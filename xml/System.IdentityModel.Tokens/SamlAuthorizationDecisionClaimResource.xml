@@ -57,15 +57,17 @@
         <Parameter Name="resource" Type="System.String" Index="0" />
         <Parameter Name="accessDecision" Type="System.IdentityModel.Tokens.SamlAccessDecision" Index="1" FrameworkAlternate="netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
         <Parameter Name="decision" Type="System.IdentityModel.Tokens.SamlAccessDecision" Index="1" FrameworkAlternate="xamarinmac-3.0" />
-        <Parameter Name="actionNamespace" Type="System.String" Index="3" />
-        <Parameter Name="actionName" Type="System.String" Index="2" />
+        <Parameter Name="actionNamespace" Type="System.String" Index="2" FrameworkAlternate="netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
+        <Parameter Name="actionName" Type="System.String" Index="2" FrameworkAlternate="xamarinmac-3.0" />
+        <Parameter Name="actionName" Type="System.String" Index="3" FrameworkAlternate="netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
+        <Parameter Name="actionNamespace" Type="System.String" Index="3" FrameworkAlternate="xamarinmac-3.0" />
       </Parameters>
       <Docs>
         <param name="resource">The resource the subject is seeking access to.</param>
         <param name="accessDecision">The authorization decision rendered by the SAML authority regarding the access to the resource by the subject.</param>
         <param name="decision">The authorization decision rendered by the SAML authority regarding the access to the resource by the subject.</param>
-        <param name="actionNamespace">The XML namespace in which the action specified in the <paramref name="actionName" /> parameter is defined.</param>
         <param name="actionName">The action sought by the subject on the resource specified in the <paramref name="resource" /> parameter.</param>
+        <param name="actionNamespace">The XML namespace in which the action specified in the <paramref name="actionName" /> parameter is defined.</param>
         <summary>Initializes a new instance of the <see cref="T:System.IdentityModel.Tokens.SamlAuthorizationDecisionClaimResource" /> class using the specified resource the subject is seeking access to, the authorization decision regarding the resource, the action sought on the resource, and the XML namespace in which the action is defined.</summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  

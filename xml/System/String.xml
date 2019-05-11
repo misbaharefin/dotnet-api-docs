@@ -3176,14 +3176,14 @@ You can download the [Sorting Weight Tables](https://www.microsoft.com/en-us/dow
       </AssemblyInfo>
       <Docs>
         <summary>Concatenates one or more instances of <see cref="T:System.String" />, or the <see cref="T:System.String" /> representations of the values of one or more instances of <see cref="T:System.Object" />.</summary>
-        <remarks>  
+        <remarks>
           <format type="text/markdown"><![CDATA[  
 
 > [!NOTE]
 >  You can also use your language's string concatenation operator, such as `+` in C#, or `&` and `+` in Visual Basic, to concatenate strings. Both compilers translate the concatenation operator into a call to one of the overloads of `String.Concat`. 
 
          ]]></format>
-         </remarks>
+        </remarks>
       </Docs>
     </MemberGroup>
     <Member MemberName="Concat">
@@ -4254,12 +4254,6 @@ You can download the [Sorting Weight Tables](https://www.microsoft.com/en-us/dow
       <Attributes>
         <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netframework-4.8">
           <AttributeName>System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netcore-3.0">
-          <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netcore-3.0">
-          <AttributeName>System.Obsolete("This API should not be used to create mutable strings. See https://go.microsoft.com/fwlink/?linkid=2084035 for alternatives.")</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -6359,44 +6353,6 @@ String 'This is a string.' in domain 'NewDomain': 75CC8236
       <Docs>
         <param name="value">To be added.</param>
         <param name="comparisonType">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="GetPinnableReference">
-      <MemberSignature Language="C#" Value="public ref readonly char GetPinnableReference ();" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.char GetPinnableReference() cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.String.GetPinnableReference" />
-      <MemberSignature Language="VB.NET" Value="Public Function GetPinnableReference () As Char" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; char ^ GetPinnableReference();" />
-      <MemberSignature Language="F#" Value="member this.GetPinnableReference : unit -&gt; char" Usage="string.GetPinnableReference " />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>System.Runtime</AssemblyName>
-        <AssemblyVersion>4.2.1.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>mscorlib</AssemblyName>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>netstandard</AssemblyName>
-      </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netcore-3.0">
-          <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
-        </Attribute>
-      </Attributes>
-      <ReturnValue RefType="Readonly">
-        <ReturnType>System.Char</ReturnType>
-        <Attributes>
-          <Attribute FrameworkAlternate="netcore-3.0">
-            <AttributeName>System.Runtime.CompilerServices.IsReadOnly</AttributeName>
-          </Attribute>
-        </Attributes>
-      </ReturnValue>
-      <Parameters />
-      <Docs>
         <summary>To be added.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>

@@ -665,10 +665,10 @@
       </Parameters>
       <Docs>
         <param name="source">The <see cref="T:System.Windows.Forms.CurrencyManager" /> for the <see cref="T:System.Windows.Forms.DataGridColumnStyle" />.</param>
-        <param name="displayText">The text to display in the control.</param>
         <param name="rowNum">The row number in this column which is being edited.</param>
         <param name="bounds">The <see cref="T:System.Drawing.Rectangle" /> in which the control is to be sited.</param>
         <param name="readOnly">A value indicating whether the column is a read-only. <see langword="true" /> if the value is read-only; otherwise, <see langword="false" />.</param>
+        <param name="displayText">The text to display in the control.</param>
         <param name="instantText">The text to display in the control.</param>
         <summary>Prepares the cell for editing using the specified <see cref="T:System.Windows.Forms.CurrencyManager" />, row number, and <see cref="T:System.Drawing.Rectangle" /> parameters.</summary>
         <remarks>
@@ -724,10 +724,10 @@
       </Parameters>
       <Docs>
         <param name="source">The <see cref="T:System.Windows.Forms.CurrencyManager" /> for the <see cref="T:System.Windows.Forms.DataGridColumnStyle" />.</param>
-        <param name="displayText">The text to display in the control.</param>
         <param name="rowNum">The row number in this column which is being edited.</param>
         <param name="bounds">The <see cref="T:System.Drawing.Rectangle" /> in which the control is to be sited.</param>
         <param name="readOnly">A value indicating whether the column is a read-only. <see langword="true" /> if the value is read-only; otherwise, <see langword="false" />.</param>
+        <param name="displayText">The text to display in the control.</param>
         <param name="instantText">The text to display in the control.</param>
         <param name="cellIsVisible">A value indicating whether the cell is visible. <see langword="true" /> if the cell is visible; otherwise, <see langword="false" />.</param>
         <summary>When overridden in a deriving class, prepares a cell for editing.</summary>
@@ -1186,7 +1186,7 @@
         <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netcore-3.0">
           <AttributeName>System.ComponentModel.DefaultValue("")</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netcore-3.0">
+        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
           <AttributeName>System.ComponentModel.Editor("System.Windows.Forms.Design.DataGridColumnStyleMappingNameEditor, System.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", typeof(System.Drawing.Design.UITypeEditor))</AttributeName>
         </Attribute>
         <Attribute>
@@ -1896,8 +1896,8 @@
       </Parameters>
       <Docs>
         <param name="source">The <see cref="T:System.Windows.Forms.CurrencyManager" /> associated with the <see cref="T:System.Windows.Forms.DataGridColumnStyle" />.</param>
-        <param name="displayText">The new value.</param>
         <param name="rowNum">The row to update.</param>
+        <param name="displayText">The new value.</param>
         <param name="instantText">The new value.</param>
         <summary>Updates the value of a specified row with the given text.</summary>
         <remarks>
